@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{3E7CD349-2355-441B-BCCE-306F642D58D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CapaLogica", "CapaLogica\CapaLogica.csproj", "{3E7CD349-2355-441B-BCCE-306F642D58D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionForm", "CapaPresentacionForm\CapaPresentacionForm.csproj", "{308CDE5D-835B-443F-AFEC-FA5C5D464F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionWeb", "CapaPresentacionWeb\CapaPresentacionWeb.csproj", "{A78DD819-B8B4-482C-BCAF-8723F28A7394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{308CDE5D-835B-443F-AFEC-FA5C5D464F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308CDE5D-835B-443F-AFEC-FA5C5D464F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308CDE5D-835B-443F-AFEC-FA5C5D464F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
