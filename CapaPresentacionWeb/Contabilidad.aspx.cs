@@ -31,12 +31,12 @@ namespace CapaPresentacionWeb
             CapaLogica.Contabilidad conta = new CapaLogica.Contabilidad();
             this.lblMensaje.Text = conta.Saludos(nombre);
 
-            /*double x = double.Parse(this.txtsaldo.Text);
-            this.txtresultado.Text = conta.getSaldos(x).ToString();
+            double sueldi = double.Parse(this.txtSueldo.Text);
+            this.lblSueldo.Text = conta.getSaldos(sueldi).ToString();
 
-            // llamando a Utilidades
-            int nummes = int.Parse(this.txtNumMes.Text);
-            this.txtNombreMes.Text = CapaLogica.Utilidades.getNombreDelMes(nummes);*/
+            
+            int mes = int.Parse(this.txtNumMes.Text);
+            this.lblMes.Text = CapaLogica.Utilidades.getNombreDelMes(mes);
         }
     }
 }

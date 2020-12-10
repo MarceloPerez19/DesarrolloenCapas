@@ -38,21 +38,29 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style2">Ingrese el saldo</td>
+                <td>
+                    <asp:TextBox ID="txtSueldo" runat="server"></asp:TextBox>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td>
+                    <asp:Label ID="lblSueldo" runat="server"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">Ingrse numero del mes</td>
+                <td>
+                    <asp:TextBox ID="txtNumMes" runat="server"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2">
                     <asp:Button ID="btnCalcular" runat="server" OnClick="btnCalcular_Click" Text="Calcular" />
+                </td>
+                <td>
+                    <asp:Label ID="lblMes" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>
