@@ -1,18 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace CapaLogica
+namespace AppConsole
 {
-    public class Utilidades
+
+    public class Contabilidad
     {
-        public  string getNombreDelMes(int mes)
+        public double getSaldos(double saldoInicial)
+        {
+            double aux = saldoInicial + 1000 + saldoInicial * 0.1;
+            return aux;
+        }
+
+        public string Saludos(string nombre = "Juan Pérez") //parámetros opcionales
+        {
+            return "Hola " + nombre + ", bienvenidos al Sistema de Contabilidad!!!";
+        }
+
+
+        public string Mes(int mes)
         {
             string aux = "";
             switch (mes)
             {
                 case 1:
-                    aux = "Enero";break;
+                    aux = "Enero"; break;
                 case 2:
                     aux = "Febrero"; break;
                 case 3:
@@ -39,8 +54,22 @@ namespace CapaLogica
                     aux = "Mes no válido"; break;
 
             } //fin switch
-          return aux;
+            return aux;
         }
-        
+        public string GetFecha(int d, int m, int an)
+        {
+            string aux1 = "Value";
+            string aux2 = "False";
+            if (d <= 31 && m <= 12 && an <= 2020)
+
+                return aux1;
+
+            else
+            {
+                return aux2;
+            }
+
+        }
     }
 }
+

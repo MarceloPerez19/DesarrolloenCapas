@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionForm", "Cap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacionWeb", "CapaPresentacionWeb\CapaPresentacionWeb.csproj", "{A78DD819-B8B4-482C-BCAF-8723F28A7394}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConsole", "AppConsole\AppConsole.csproj", "{7B18E114-6D4E-4773-918A-E85B21B85284}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A78DD819-B8B4-482C-BCAF-8723F28A7394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B18E114-6D4E-4773-918A-E85B21B85284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B18E114-6D4E-4773-918A-E85B21B85284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B18E114-6D4E-4773-918A-E85B21B85284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B18E114-6D4E-4773-918A-E85B21B85284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,9 +34,10 @@ namespace CapaPresentacionWeb
             double sueldi = double.Parse(this.txtSueldo.Text);
             this.lblSueldo.Text = conta.getSaldos(sueldi).ToString();
 
-            
+
+            CapaLogica.Utilidades ui = new CapaLogica.Utilidades();
             int mes = int.Parse(this.txtNumMes.Text);
-            this.lblMes.Text = CapaLogica.Utilidades.getNombreDelMes(mes);
+            this.lblMes.Text = ui.getNombreDelMes(mes);
 
             int a = int.Parse(this.txtDia.Text);
             int b = int.Parse(this.txtMes.Text);

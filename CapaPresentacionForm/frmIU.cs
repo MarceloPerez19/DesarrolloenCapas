@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CapaPresentacionForm
 {
-    public partial class frmIU : Form
+    public partial class txtDia : Form
     {
-        public frmIU()
+        public txtDia()
         {
             InitializeComponent();
         }
@@ -27,12 +27,18 @@ namespace CapaPresentacionForm
             this.txtResultado.Text = conta.getSaldos(x).ToString();
 
             // llamando a Utilidades
-            int nummes =  int.Parse( this.txtNumMes.Text);
-            this.txtNombreMes.Text =  CapaLogica.Utilidades.getNombreDelMes(nummes);
+            CapaLogica.Utilidades mes = new CapaLogica.Utilidades();
+            int num = int.Parse(this.txtNumMes.Text);
+            this.txtNombreMes.Text = mes.getNombreDelMes(num);
 
-            //llamado a fecha
-            string fecha = this.txtFecha.Text;
-            this.txtReFech.Text = CapaLogica.Fecha.getFecha(fecha);
+            CapaLogica.Fecha fe = new CapaLogica.Fecha();
+            int a = int.Parse(this.txtDiaFecha.Text);
+            int b = int.Parse(this.txtMes.Text);
+            int c = int.Parse(this.txtAn.Text);
+            this.txtFecha.Text = fe.GetFecha(a, b, c);
+
+          
+            
         }
     }
 }

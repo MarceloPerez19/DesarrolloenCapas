@@ -6,7 +6,7 @@ namespace CapaLogica
 {
     public class Fecha
     {
-        public static string GetFecha(int d, int m, int an)
+        public  string GetFecha(int d, int m, int an)
         {
             string aux1 = "Value";
             string aux2 = "False";
