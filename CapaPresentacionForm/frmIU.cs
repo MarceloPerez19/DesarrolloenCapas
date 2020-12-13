@@ -29,6 +29,10 @@ namespace CapaPresentacionForm
             // llamando a Utilidades
             int nummes =  int.Parse( this.txtNumMes.Text);
             this.txtNombreMes.Text =  CapaLogica.Utilidades.getNombreDelMes(nummes);
+
+            //llamado a fecha
+            string fecha = this.txtFecha.Text;
+            this.txtReFech.Text = CapaLogica.Fecha.getFecha(fecha);
         }
     }
 }

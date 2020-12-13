@@ -37,6 +37,16 @@ namespace CapaPresentacionWeb
             
             int mes = int.Parse(this.txtNumMes.Text);
             this.lblMes.Text = CapaLogica.Utilidades.getNombreDelMes(mes);
+
+            int a = int.Parse(this.txtDia.Text);
+            int b = int.Parse(this.txtMes.Text);
+            int c = int.Parse(this.txtAn.Text);
+            this.lblFecha.Text = CapaLogica.Fecha.GetFecha(a,b,c);
+        }
+
+        protected void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
